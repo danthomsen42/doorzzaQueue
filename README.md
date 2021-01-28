@@ -3,7 +3,7 @@ A queue to be used by doorzza drivers to know who is next to deliver and to know
 
 It will have two main front-ends:
   1. An app designed to run on an android tablet. 
-      a. Displays the queue of all of the drivers on duty that night.
+      a. Displays the queue of all of the drivers logged in that moment.
       b. The app will be the only device capable of adding a driver's account to the available drivers, so as to reduce the influence of bad actors
       c. The app will be able to force a user to log out, to rearange the queue order, and update the user's availabilty/status
       d. The app can permanently remove/disable a driver's account.
