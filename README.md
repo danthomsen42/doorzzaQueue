@@ -8,7 +8,7 @@ It will have two main front-ends:
       c. The app will be able to force a user to log out, to rearange the queue order, and update the user's availabilty/status
       d. The app can permanently remove/disable a driver's account.
   
-  2. A Web based app with a simple interface
+  2. A mobile web based app with a simple interface
       a. For the drivers to use to update their availability/status
       b. For drivers to log in/out as being available for deliveries.
       
