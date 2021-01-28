@@ -11,6 +11,7 @@ It will have two main front-ends:
   2. A mobile web based app with a simple interface
       a. For the drivers to use to update their availability/status
       b. For drivers to log in/out as being available for deliveries.
+      c. It will notify the user with a vibration or sound when they are the next driver up
       
 The app will have a simple database backend used to store the drivers info and their current status. 
   1. It is used as a middle man for the Android and Web apps - Once one is updated, so is the other.
