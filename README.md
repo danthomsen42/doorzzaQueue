@@ -14,4 +14,4 @@ It will have two main front-ends:
       
 The app will have a simple database backend used to store the drivers info and their current status. 
   1. It is used as a middle man for the Android and Web apps - Once one is updated, so is the other.
-  2. The database will only store The driver's name, status, and an optional prefered name if desired or necessary.
+  2. The database will only store The driver's name, status, password, and an optional prefered name if desired or necessary.
