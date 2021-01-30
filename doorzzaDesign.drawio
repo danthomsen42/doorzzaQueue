@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T06:02:43.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="BSlPhd6EwInAGsg33k-t" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-30T06:05:57.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="m8_GYDhKOMcBdP8D0h8J" version="14.1.8" type="github">
   <diagram id="_kvu0tcYkDNjvVevsuzK" name="Page-1">
-    <mxGraphModel dx="1370" dy="2575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="967" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -636,9 +636,9 @@
           <mxGeometry x="220" y="-10" width="69" height="69" as="geometry" />
         </mxCell>
         <mxCell id="7wyjwXwu_f_uyT5WJrwB-304" value="" style="shape=rect;strokeColor=#eeeeee;fillColor=#ffffff;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="2110" width="289" height="40" as="geometry" />
+          <mxGeometry x="3000" y="2110" width="289" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7wyjwXwu_f_uyT5WJrwB-305" value="Log Out" style="text;verticalAlign=middle;spacing=0;spacingLeft=16;fontSize=15;resizeWidth=1;" vertex="1" parent="7wyjwXwu_f_uyT5WJrwB-304">
+        <mxCell id="7wyjwXwu_f_uyT5WJrwB-305" value="Change Status" style="text;verticalAlign=middle;spacing=0;spacingLeft=16;fontSize=15;resizeWidth=1;" vertex="1" parent="7wyjwXwu_f_uyT5WJrwB-304">
           <mxGeometry width="272" height="42" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7wyjwXwu_f_uyT5WJrwB-307" value="" style="shape=rect;strokeColor=none;fillColor=#dddddd;" vertex="1" parent="7wyjwXwu_f_uyT5WJrwB-304">
@@ -647,7 +647,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7wyjwXwu_f_uyT5WJrwB-333" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/hand-o-up-128.png;fillColor=#ADB8AC;" vertex="1" parent="7wyjwXwu_f_uyT5WJrwB-304">
-          <mxGeometry x="220" y="-29" width="69" height="69" as="geometry" />
+          <mxGeometry x="220" y="-65.25" width="69" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="7wyjwXwu_f_uyT5WJrwB-377" value="Log Out" style="text;verticalAlign=middle;spacing=0;spacingLeft=16;fontSize=15;resizeWidth=1;" vertex="1" parent="7wyjwXwu_f_uyT5WJrwB-304">
+          <mxGeometry y="40" width="272" height="42" as="geometry" />
         </mxCell>
         <mxCell id="7wyjwXwu_f_uyT5WJrwB-315" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Available&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3450" y="298" width="280" height="137" as="geometry" />
