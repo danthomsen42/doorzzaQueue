@@ -8,7 +8,9 @@ CREATE TABLE "Driver_Table" (
   "locationID" int,
   "driverName" text NOT NULL,
   "preferredDriverName" text,
-  "password" password NOT NULL
+  "password" password NOT NULL,
+  "lastLoginTime" datetime,
+  "lastLogOutTime" datetime
 );
 
 CREATE TABLE "Driver_Time_Table" (
