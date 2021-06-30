@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="doorzzaDriverPage.css">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            Doorzza</div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><img src="menuIcon.png"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        
+
+    </header>
+
+
+    <button id="availabilityButton" onclick="setColor(this)">
+
+    </button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        
+        var backgrounds = ["green", "yellow", "red", "lightgrey"]; 
+function setColor(el) { 
+    el.colorIdx = el.colorIdx || 0; 
+    el.style.backgroundColor = backgrounds[el.colorIdx++ % backgrounds.length]; 
+} 
+
+        
+    </script>
+
+</body>
+<!-- Sources 
+Menu Icon - https://material.io/resources/icons/?icon=list&style=baseline
+
+Color of Button Changing- https://jsfiddle.net/gilly3/vPMPb/
+
+-->
+    
+    
+
+</html>
