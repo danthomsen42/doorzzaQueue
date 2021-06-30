@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+<style>
+    .button{
+        background-color: White;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 100%;
+    }
+    body{
+        background-color: blue;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+
+
+var colorIndex = 0;
+function changeColor(){
+
+if (colorIndex > 3){
+    colorIndex = 0;
+}
+let buttonColor = ['grey', 'green', 'yellow', 'red'];
+let buttonTexts = ['Waiting', 'Available', 'En Route', 'Returning'];
+document.getElementById("changeButton").style.backgroundColor = buttonColor[colorIndex];
+document.getElementById("changeText").innerHTML = buttonTexts[colorIndex];
+
+colorIndex++;
+//console.log("click");
+}
+</script>
+
+    </head>
+    <body>
+        <div id="changeText">SignIn</div>
+        <button id="changeButton" class="button" onclick="changeColor()">+</button>
+    </body>
+
+
+</html>

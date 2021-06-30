@@ -1,0 +1,25 @@
+{
+  "name": "doorzzaqueue",
+  "version": "1.0.0",
+  "description": "A queue to be used by doorzza drivers to know who is next to deliver and to know the status of drivers",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danthomsen42/doorzzaQueue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danthomsen42/doorzzaQueue/issues"
+  },
+  "homepage": "https://github.com/danthomsen42/doorzzaQueue#readme"
+}
